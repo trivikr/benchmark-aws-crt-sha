@@ -4,7 +4,7 @@
   "description": "Benchmark AWS CRT SHA algorithms with ones provided by Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bench": "node src/bench.js"
   },
   "keywords": [
     "benchmark",
@@ -16,6 +16,8 @@
   "license": "MIT",
   "packageManager": "yarn@4.5.0",
   "dependencies": {
+    "aws-crt": "^1.22.0",
     "benchmark": "^2.1.4"
-  }
+  },
+  "type": "module"
 }
